@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: -99;
+    
+}
+
+
+.headzdj {
+    position: relative;
+    background-image: url("../img/16281857_rm125batch2-ning-11b-frames.jpg");
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -99;
+}
+
+
+
+
+
+.headzdj .headzdj-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.767);
+    z-index: -5;
+}
+
+
+/* _____________________________________ */
+
+
+
+h1 {
+    text-shadow: 0 0 20px #5f80bc, 0 0 40px #acece2;
+    text-align: center;
+    padding: 24px;
+  
+}
+
+
+h2 {
+    text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;   
+    text-align: center;
+    padding: 34px 0 0 4px;
+}
+
+
+a {
+    color: #fff9f9;
+}
+
+
+
+/* _________________nav____________________ */
+
+
+
+
+
+
+/* ________________box_____________________ */
+
+
+.box-sdw {
+    box-sizing: 370px;
+    box-shadow: 0 0 60px #00fffb, 0 0 40px #0081bc;
+    border-radius: 26px;
+}
+
+
+
+/* ________________phone_____________________ */
+
+
+.phone {
+    /* width: 370px;
+    height: 667px; */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur (20px);
+    backdrop-filter: blur (20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 26px;
+    z-index: 5;
+
+}
+
+
+/* _______________button______________________ */
+
+
+.buttonstyle {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.buttonstyle:focus,
+.buttonstyle:hover {
+    box-shadow: 0px 0px 2px #5c90ff, 0px 0px 3px #5c7aff, 0px 0px 5px #136cb5;
+    color: #5cfaff;
+}
+
+
+/* ________________________________ */
+
+
+
+#controls {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+form input, form select, form button {
+    padding: 5px;
+    font-size: 14px;
+}
