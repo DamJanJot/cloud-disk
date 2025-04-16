@@ -5,10 +5,10 @@ if (!isset($_SESSION['loggedin'])) {
     exit();
 }
 
-$servername = "81.171.31.232";
-$username = "dj98";
-$password = "Nowehaslo7777";
-$dbname = "dj98";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
